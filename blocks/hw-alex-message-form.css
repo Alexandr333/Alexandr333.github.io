@@ -1,0 +1,43 @@
+/*-------------------message form-------------------------*/
+.hw-alex-message-form{
+}
+.hw-alex-message-form__container{
+    margin-top:25px;
+    padding-bottom:20px;
+}
+.hw-alex-message-form__input{
+    width:100%;
+    
+    margin:0 0 30px 0;
+    padding-bottom:5px;
+    
+    background-color: rgba(0,0,0,0);
+    
+    border:none;
+    outline:none;
+    border-bottom:1px solid #E7AA57;
+    
+    font-family:inherit;
+    font-size: inherit;
+    color:white;
+    text-indent:10px;
+}
+.hw-alex-message-form__input::-webkit-input-placeholder { 
+    color: white; 
+}
+.hw-alex-message-form__input::-moz-placeholder { 
+    color: white; 
+}
+.hw-alex-message-form__send-button{
+    height:45px;
+    width:100%;
+    max-width:300px;
+
+    border-radius:22px;
+    border:none;
+    outline:none;
+
+    background-color:white;
+
+    font-size:16px;
+}

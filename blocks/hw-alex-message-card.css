@@ -1,0 +1,30 @@
+/*-------------------message card-------------------------*/
+.hw-alex-message-card{
+}
+.hw-alex-message-card_light-red{
+    background-color:#E9714C;
+}
+.hw-alex-message-card_stretch{
+    width:100%;
+    height:100%;
+}
+.hw-alex-message-card__container{
+    color:white;
+
+    box-sizing:border-box;
+
+    padding:40px 25px 30px 25px;
+}
+.hw-alex-message-card__title{
+    font-size: 42px;
+    
+    padding-top:15px;
+    padding-bottom:10px;
+}
+.hw-alex-message-card__text{
+    font-size: 16px;
+    line-height: 30px;
+    font-weight:400;
+    
+    padding-bottom:7px;
+}

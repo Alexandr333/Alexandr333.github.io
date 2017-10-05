@@ -7,285 +7,309 @@
     <title>Document</title>
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700" rel="stylesheet">
     <link rel="stylesheet" href="font-awesome.min.css">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="media-style.css">
+    <link rel="stylesheet" href="./blocks/hw-alex-ability-card.css">
+    <link rel="stylesheet" href="./blocks/hw-alex-about-card.css">
+    <link rel="stylesheet" href="./blocks/hw-alex-contacts-card.css">
+    <link rel="stylesheet" href="./blocks/hw-alex-darkened-card.css">
+    <link rel="stylesheet" href="./blocks/hw-alex-footer.css">
+    <link rel="stylesheet" href="./blocks/hw-alex-header-card.css">
+    <link rel="stylesheet" href="./blocks/hw-alex-text-with-icon.css">
+    <link rel="stylesheet" href="./blocks/hw-alex-knowledge-card.css">
+    <link rel="stylesheet" href="./blocks/hw-alex-menu.css">
+    <link rel="stylesheet" href="./blocks/hw-alex-message-card.css">
+    <link rel="stylesheet" href="./blocks/hw-alex-message-form.css">
+    <link rel="stylesheet" href="./blocks/hw-alex-progress-bar.css">
+    <link rel="stylesheet" href="./blocks/hw-alex-skills-card.css">
+    <link rel="stylesheet" href="./blocks/hw-alex-layout.css">
     <style>
         body{
             margin:0;
         }
+
     </style>
 </head>
-<body>
-    <div class="storage">
-        <div class="storage__medium-container">
-            <div class="storage__image storage__image_fifth-image"></div>
+<body><!-- think about size in pixels -->
+    <div class="hw-alex-layout">
+        <div class="hw-alex-layout__medium-box">
+            <div class="hw-alex-layout__image hw-alex-layout__image_fifth-image"></div>
          </div>
-        <div class="storage__medium-container">
-            <div class="header-card header-card_light-pink header-card_stretch">
-                <div class="header-card__content-centrer ">
-                    <div class="header-card__content-container">
-                        <div class="header-card__small-caption">
-                                WELCOME TO MY WEBSITE
+        <div class="hw-alex-layout__medium-box">
+            <div class="hw-alex-header-card hw-alex-header-card_light-pink hw-alex-header-card_stretch" id="home">
+                <div class="hw-alex-header-card__container">
+                    <div class="hw-alex-header-card__menu-container">
+                        <div class="hw-alex-menu">
+                            <div class="hw-alex-menu__items">
+                                <a class="hw-alex-menu__item hw-alex-menu__item_dark-yellow" href="#home">HOME</a>
+                                <a class="hw-alex-menu__item hw-alex-menu__item_dark-gray" href="#about">ABOUT ME</a>
+                                <a class="hw-alex-menu__item hw-alex-menu__item_dark-gray" href="#experience">EXPERIENCES</a>
+                                <a class="hw-alex-menu__item hw-alex-menu__item_dark-gray" href="#testimonial">TESTIMONIAL</a>
+                                <a class="hw-alex-menu__item hw-alex-menu__item_dark-gray" href="#contact">CONTACT</a>
+                            </div>
                         </div>
-                        <div class="header-card__large-caption">
-                                Hello, I am <span class="header-card__bold-text">Stimulus</span> currently based in New&#160;York city.
+                    </div>
+                    <div class="hw-alex-header-card__content-centrer ">
+                        <div class="hw-alex-header-card__content-container">
+                            <div class="hw-alex-header-card__small-caption">
+                                    WELCOME TO MY WEBSITE
+                            </div>
+                            <div class="hw-alex-header-card__large-caption">
+                                    Hello, I am <span class="hw-alex-header-card__bold-text">Stimulus</span> currently based in New&#160;York city.
+                            </div>
+                            <div class="hw-alex-header-card__text">
+                                    Donec auctor arcu at efficitur lacinia. Praesent bibendum efficitur ipsum, et mattis tellus interdum in. Ut a dictum purus. Vestibulum non pellentesque felis, sed dignissim urna. Vestibulum id accumsan quam.
+                            </div>
+                            <button class="hw-alex-header-card__button">GET-STARTED</button>
                         </div>
-                        <div class="header-card__text">
-                                Donec auctor arcu at efficitur lacinia. Praesent bibendum efficitur ipsum, et mattis tellus interdum in. Ut a dictum purus. Vestibulum non pellentesque felis, sed dignissim urna. Vestibulum id accumsan quam.
-                        </div>
-                        <button class="header-card__button">GET-STARTED</button>
                     </div>
                 </div>
             </div>
          </div>
         <!--  -->
-        <div class="storage__medium-container">
-            <div class="about-card about-card_stretch">
-                <div class="about-card__container">
-                    <div class="about-card__header">Donec auctor</div>
-                    <div class="about-card__paragraph about-card__paragraph_special">
+        <div class="hw-alex-layout__medium-box">
+            <div class="hw-alex-about-card hw-alex-about-card_stretch" id="about">
+                <div class="hw-alex-about-card__container">
+                    <div class="hw-alex-about-card__header">Donec auctor</div>
+                    <div class="hw-alex-about-card__paragraph hw-alex-about-card__paragraph_special">
                         Sed vulputate vitae diam quis bibendum
                     </div>
-                    <div class="about-card__paragraph">
+                    <div class="hw-alex-about-card__paragraph">
                         Phasellus vulputate tellus nec tortor varius elementum. Curabitur at pulvinar ante. Duis dui urna, faucibus eget felis eu, iaculis congue sem. Mauris convallis eros massa.
                     </div>
-                    <div class="about-card__paragraph">
+                    <div class="hw-alex-about-card__paragraph">
                             Quisque viverra iaculis aliquam. Etiam volutpat, justo non aliquam bibendum, sem nibh mollis erat, quis porta odio odio at velit.
                     </div>
                 </div>
             </div>
          </div>
-        <div class="storage__small-container">
-            <div class="storage__image storage__image_first-image"></div>
+        <div class="hw-alex-layout__small-box">
+            <div class="hw-alex-layout__image hw-alex-layout__image_first-image"></div>
          </div>
-        <div class="storage__small-container">
-                <div class="skills-card skills-card_light-brown skills-card_stretch">
-                    <div class="skills-card__container">
-                            <div class="skills-card__header">My Skills</div>
-                            <div class="skills-card__text">Photoshop . HTML CSS JS . Web&nbsp;Design</div>
-                            <div class="progress-bar">
-                                    <div class="progress-bar__container">
-                                        <div class="progress-bar__description">
-                                            <div class="progress-bar__what-description"><strong>Frontend Design</strong></div>
-                                            <div class="progress-bar__how-many-description">90%</div>
-                                        </div>
-                                        <div class="progress-bar__loading-container">
-                                            <div class="progress-bar__loaded progress-bar__loaded_many"></div>
-                                        </div>
-                                    </div>
+        <div class="hw-alex-layout__small-box">
+            <div class="hw-alex-skills-card hw-alex-skills-card_light-brown hw-alex-skills-card_stretch" id="experience">
+                <div class="hw-alex-skills-card__container">
+                    <div class="hw-alex-skills-card__header">My Skills</div>
+                    <div class="hw-alex-skills-card__text">Photoshop . HTML CSS JS . Web&nbsp;Design</div>
+                    <div class="hw-alex-progress-bar">
+                        <div class="hw-alex-progress-bar__container">
+                            <div class="hw-alex-progress-bar__description">
+                                <div class="hw-alex-progress-bar__description-info"><strong>Frontend Design</strong></div>
+                                <div class="hw-alex-progress-bar__description-value">90%</div>
                             </div>
-                            <div class="progress-bar">
-                                        <div class="progress-bar__container">
-                                            <div class="progress-bar__description">
-                                                <div class="progress-bar__what-description"><strong>Backend processing</strong></div>
-                                                <div class="progress-bar__how-many-description">70%</div>
-                                            </div>
-                                            <div class="progress-bar__loading-container">
-                                                <div class="progress-bar__loaded progress-bar__loaded_few"></div>
-                                            </div>
-                                        </div>
+                            <div class="hw-alex-progress-bar__progress-container">
+                                <div class="hw-alex-progress-bar__progress hw-alex-progress-bar__progress_front-end"></div>
                             </div>
-                            <div class="progress-bar">
-                                        <div class="progress-bar__container">
-                                            <div class="progress-bar__description">
-                                                <div class="progress-bar__what-description"><strong>HTML5 &amp; CSS3</strong></div>
-                                                <div class="progress-bar__how-many-description">80%</div>
-                                            </div>
-                                            <div class="progress-bar__loading-container">
-                                                <div class="progress-bar__loaded progress-bar__loaded_more"></div>
-                                            </div>
-                                        </div>
+                        </div>
+                    </div>
+                    <div class="hw-alex-progress-bar">
+                        <div class="hw-alex-progress-bar__container">
+                            <div class="hw-alex-progress-bar__description">
+                                <div class="hw-alex-progress-bar__description-info"><strong>Backend processing</strong></div>
+                                <div class="hw-alex-progress-bar__description-value">70%</div>
                             </div>
+                            <div class="hw-alex-progress-bar__progress-container">
+                                <div class="hw-alex-progress-bar__progress hw-alex-progress-bar__progress_back-end"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hw-alex-progress-bar">
+                        <div class="hw-alex-progress-bar__container">
+                            <div class="hw-alex-progress-bar__description">
+                                <div class="hw-alex-progress-bar__description-info"><strong>HTML5 &amp; CSS3</strong></div>
+                                <div class="hw-alex-progress-bar__description-value">80%</div>
+                            </div>
+                            <div class="hw-alex-progress-bar__progress-container">
+                                <div class="hw-alex-progress-bar__progress hw-alex-progress-bar__progress_html-css"></div>
+                            </div>
+                        </div>
                     </div>
                 </div>
+            </div>
          </div>
         <!--  -->
-        <div class="storage__small-container">
-            <div class="ability-card ability-card_light-brown ability-card_stretch">
-                <div class="ability-card__container ">
-                    <i class="fa fa-desktop ability-card__icon "></i>
-                    <div class="ability-card__header">Interface Design</div>
-                    <div class="ability-card__text">
+        <div class="hw-alex-layout__small-box">
+            <div class="hw-alex-ability-card hw-alex-ability-card_light-brown hw-alex-ability-card_stretch">
+                <div class="hw-alex-ability-card__container ">
+                    <i class="fa fa-desktop hw-alex-ability-card__icon "></i>
+                    <div class="hw-alex-ability-card__header">Interface Design</div>
+                    <div class="hw-alex-ability-card__text">
                             Phasellus vulputate tellus nec tortor varius elementum. Curabitur at pulvinar ante.
                     </div>
                 </div>
             </div>
          </div>
-        <div class="storage__small-container">
-            <div class="ability-card ability-card_light-red ability-card_stretch">
-                <div class="ability-card__container ">
-                    <i class="fa fa fa-paper-plane ability-card__icon "></i>
-                    <div class="ability-card__header">Media Strategy</div>
-                    <div class="ability-card__text">
+        <div class="hw-alex-layout__small-box">
+            <div class="ability-card hw-alex-ability-card_light-red hw-alex-ability-card_stretch">
+                <div class="hw-alex-ability-card__container ">
+                    <i class="fa fa fa-paper-plane hw-alex-ability-card__icon "></i>
+                    <div class="hw-alex-ability-card__header">Media Strategy</div>
+                    <div class="hw-alex-ability-card__text">
                         Curabitur at pulvinar ante. Duis dui urna, faucibus eget felis eu, iaculis congue sem.
                     </div>
                 </div>
             </div>
          </div>
-        <div class="storage__small-container">
-            <div class="ability-card ability-card_black ability-card_stretch">
-                <div class="ability-card__container ">
-                    <i class="fa fa-table ability-card__icon "></i>
-                    <div class="ability-card__header">Mobile App</div>
-                    <div class="ability-card__text">
+        <div class="hw-alex-layout__small-box">
+            <div class="ability-card hw-alex-ability-card_black hw-alex-ability-card_stretch">
+                <div class="hw-alex-ability-card__container ">
+                    <i class="fa fa-table hw-alex-ability-card__icon "></i>
+                    <div class="hw-alex-ability-card__header">Mobile App</div>
+                    <div class="hw-alex-ability-card__text">
                         Mauris convallis eros massa, vitae euismod arcu tempus ut. Quisque viverra iaculis.
                     </div>
                 </div>
             </div>
          </div>
-        <div class="storage__small-container">
-            <div class="ability-card ability-card_stretch">
-                <div class="ability-card__container ">
-                    <i class="fa fa-html5 ability-card__icon ability-card__icon_black"></i>
-                    <div class="ability-card__header ability-card__header_black">Coding</div>
-                    <div class="ability-card__text ability-card__text_gray">
+        <div class="hw-alex-layout__small-box">
+            <div class="ability-card hw-alex-ability-card_stretch">
+                <div class="hw-alex-ability-card__container ">
+                    <i class="fa fa-html5 hw-alex-ability-card__icon hw-alex-ability-card__icon_black"></i>
+                    <div class="hw-alex-ability-card__header hw-alex-ability-card__header_black">Coding</div>
+                    <div class="hw-alex-ability-card__text hw-alex-ability-card__text_gray">
                         Mauris convallis eros massa, vitae euismod arcu tempus ut. Quisque viverra iaculis.
                     </div>
                 </div>
             </div>
          </div>
         <!--  -->
-        <div class="storage__medium-container">
-            <div class="storage__image storage__image_fourth-image"></div>
+        <div class="hw-alex-layout__medium-box">
+            <div class="hw-alex-layout__image hw-alex-layout__image_fourth-image"></div>
          </div>
-        <div class="storage__medium-container">
-            <div class="knowledge-card knowledge-card_experience knowledge-card_stregth">
-                <div class="knowledge-card__container">
-                    <div class="knowledge-card__title">
+        <div class="hw-alex-layout__medium-box">
+            <div class="hw-alex-knowledge-card hw-alex-knowledge-card_experience hw-alex-knowledge-card_stregth">
+                <div class="hw-alex-knowledge-card__container">
+                    <div class="hw-alex-knowledge-card__title">
                             My Experiences
                     </div>
-                    <div class="knowledge-card__text">
+                    <div class="hw-alex-knowledge-card__text">
                             Previous companies and my tasks
                     </div>
-                    <div class="item-with-icon">
-                        <div class="item-with-icon__container">
-                            <i class="fa fa-laptop item-with-icon__icon"></i>
-                            <div class="item-with-icon__text-container">
-                                <div class="item-with-icon__title">Graphic Designer <span class="item-with-icon__smaller-title item-with-icon__smaller-title_dark-brown">2014 Jul - 2015 Sep</span></div>
-                                <div class="item-with-icon__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
+                    <div class="hw-alex-text-with-icon">
+                        <div class="hw-alex-text-with-icon__container">
+                            <i class="fa fa-laptop hw-alex-text-with-icon__icon"></i>
+                            <div class="hw-alex-text-with-icon__text-container">
+                                <div class="hw-alex-text-with-icon__title">Graphic Designer <span class="hw-alex-text-with-icon__smaller-title hw-alex-text-with-icon__smaller-title_dark-brown">2014 Jul - 2015 Sep</span></div>
+                                <div class="hw-alex-text-with-icon__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
                             </div> 
                         </div>
                     </div>
-                    <div class="item-with-icon">
-                            <div class="item-with-icon__container">
-                                <i class="fa fa-laptop item-with-icon__icon"></i>
-                                <div class="item-with-icon__text-container">
-                                    <div class="item-with-icon__title">Web Designer <span class="item-with-icon__smaller-title item-with-icon__smaller-title_dark-brown">2014 Jul - 2015 Sep</span></div>
-                                    <div class="item-with-icon__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
-                                </div> 
-                            </div>
+                    <div class="hw-alex-text-with-icon">
+                        <div class="hw-alex-text-with-icon__container">
+                            <i class="fa fa-laptop hw-alex-text-with-icon__icon"></i>
+                            <div class="hw-alex-text-with-icon__text-container">
+                                <div class="hw-alex-text-with-icon__title">Web Designer <span class="hw-alex-text-with-icon__smaller-title hw-alex-text-with-icon__smaller-title_dark-brown">2014 Jul - 2015 Sep</span></div>
+                                <div class="hw-alex-text-with-icon__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
+                            </div> 
+                        </div>
                     </div>    
                 </div>
             </div>    
          </div>
         <!--  -->
-        <div class="storage__medium-container">
-            <div class="knowledge-card knowledge-card_education knowledge-card_stregth">
-                    <div class="knowledge-card__container">
-                        <div class="knowledge-card__title">
-                                My Educatio
+        <div class="hw-alex-layout__medium-box">
+            <div class="hw-alex-knowledge-card hw-alex-knowledge-card_education hw-alex-knowledge-card_stregth">
+                    <div class="hw-alex-knowledge-card__container">
+                        <div class="hw-alex-knowledge-card__title">
+                                My Education
                         </div>
-                        <div class="knowledge-card__text">
+                        <div class="hw-alex-knowledge-card__text">
                                 In cursus orci non ipsum gravida dignissim
                         </div>
-                        <div class="item-with-icon">
-                            <div class="item-with-icon__container">
-                                <i class="fa fa-laptop item-with-icon__icon"></i>
-                                <div class="item-with-icon__text-container">
-                                    <div class="item-with-icon__title">Master in Design <span class="item-with-icon__smaller-title item-with-icon__smaller-title_light-brown">2012 Jan - 2014 May</span></div>
-                                    <div class="item-with-icon__text">Etiam iaculis elit in mauris ullamcorper auctor. Proin a sapien id orci ullamcorper dignissim eu in neque.</div>
+                        <div class="hw-alex-text-with-icon">
+                            <div class="hw-alex-text-with-icon__container">
+                                <i class="fa fa-laptop hw-alex-text-with-icon__icon"></i>
+                                <div class="hw-alex-text-with-icon__text-container">
+                                    <div class="hw-alex-text-with-icon__title">Master in Design <span class="hw-alex-text-with-icon__smaller-title hw-alex-text-with-icon__smaller-title_light-brown">2012 Jan - 2014 May</span></div>
+                                    <div class="hw-alex-text-with-icon__text">Etiam iaculis elit in mauris ullamcorper auctor. Proin a sapien id orci ullamcorper dignissim eu in neque.</div>
                                 </div> 
                             </div>
                         </div>
-                        <div class="item-with-icon">
-                                <div class="item-with-icon__container">
-                                    <i class="fa fa-laptop item-with-icon__icon"></i>
-                                    <div class="item-with-icon__text-container">
-                                        <div class="item-with-icon__title">Bachelor of Arts <span class="item-with-icon__smaller-title item-with-icon__smaller-title_light-brown">2008 May - 2011 Dec</span></div>
-                                        <div class="item-with-icon__text">Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</div>
+                        <div class="hw-alex-text-with-icon">
+                                <div class="hw-alex-text-with-icon__container">
+                                    <i class="fa fa-laptop hw-alex-text-with-icon__icon"></i>
+                                    <div class="hw-alex-text-with-icon__text-container">
+                                        <div class="hw-alex-text-with-icon__title">Bachelor of Arts <span class="hw-alex-text-with-icon__smaller-title hw-alex-text-with-icon__smaller-title_light-brown">2008 May - 2011 Dec</span></div>
+                                        <div class="hw-alex-text-with-icon__text">Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</div>
                                     </div> 
                                 </div>
                         </div>    
                     </div>
                 </div>
          </div>
-        <div class="storage__medium-container">
-            <div class="storage__image storage__image_third-image"></div>
+        <div class="hw-alex-layout__medium-box">
+            <div class="hw-alex-layout__image hw-alex-layout__image_third-image"></div>
          </div>
         <!--  -->
-        <div class="storage__large-container">
-            <div class="storage__big-picture">
-                <div class="darkened-card darkened-card_stretch">
-                    <div class="darkened-card__container">
-                        <div class="darkened-card__overlay"></div>
-                        <div class="darkened-card__content-container">
-                            <i class="fa fa-star darkened-card__icon"></i>
-                            <div class="darkened-card__title">
+        <div class="hw-alex-layout__large-box hw-alex-layout__large-box_with-image">
+            <div class="hw-alex-darkened-card hw-alex-darkened-card_stretch">
+                    <div class="hw-alex-darkened-card__container">
+                        <div class="hw-alex-darkened-card__overlay"></div>
+                        <div class="hw-alex-darkened-card__content-container">
+                            <i class="fa fa-star hw-alex-darkened-card__icon"></i>
+                            <div class="hw-alex-darkened-card__title">
                                     Proin lobortis eu diam et facilisis. Fusce nisi nibh, molestie in vestibulum quis, auctor et orci.
                             </div>
-                            <div class="darkened-card__text">
+                            <div class="hw-alex-darkened-card__text">
                                     Curabitur at pulvinar ante. Duis dui urna, faucibus eget felis eu, iaculis congue sem.
                             </div>
                         </div>
                     </div>
-                </div>
             </div>
          </div>
         <!--  -->
-        <div class="storage__medium-container">
-            <div class="message-card message-card_light-red message-card_stretch">
-                <div class="message-card__container">
-                    <div class="message-card__title">
+        <div class="hw-alex-layout__medium-box">
+            <div class="hw-alex-message-card hw-alex-message-card_light-red hw-alex-message-card_stretch" id="testimonial">
+                <div class="hw-alex-message-card__container">
+                    <div class="hw-alex-message-card__title">
                         Say hello..
                     </div>
-                    <div class="message-card__text">
+                    <div class="hw-alex-message-card__text">
                         Integer ut consectetur est. In cursus orci non ipsum gravida dignissim.
                     </div>
-                    <form class="message-form">
-                        <div class="message-form__container">
-                            <input class="message-form__input" type="text" placeholder="Your Name">
-                            <input class="message-form__input" type="text" placeholder="Your Email">
-                            <textarea class="message-form__input" rows="5" placeholder="Write your message"></textarea>
-                            <button class="message-form__send-button">Send</button>
+                    <form class="hw-alex-message-form">
+                        <div class="hw-alex-message-form__container">
+                            <input class="hw-alex-message-form__input" type="text" placeholder="Your Name">
+                            <input class="hw-alex-message-form__input" type="text" placeholder="Your Email">
+                            <textarea class="hw-alex-message-form__input" rows="5" placeholder="Write your message"></textarea>
+                            <button class="hw-alex-message-form__send-button">Send</button>
                         </div>
                     </form>
                 </div>
             </div>
          </div>
-        <div class="storage__small-container">
-            <div class="storage__image storage__image_second-image"></div>
+        <div class="hw-alex-layout__small-box">
+            <div class="hw-alex-layout__image hw-alex-layout__image_second-image"></div>
          </div>
-        <div class="storage__small-container">
-            <div class="contacts-card contacts-card_black contacts-card_stretch">
-                <div class="contacts-card__container">
-                    <div class="contacts-card__title">
+        <div class="hw-alex-layout__small-box">
+            <div class="contacts-card hw-alex-contacts-card_black hw-alex-contacts-card_stretch" id="contact">
+                <div class="hw-alex-contacts-card__container">
+                    <div class="hw-alex-contacts-card__title">
                             Visit my office
                     </div>
-                    <div class="contacts-card__text contacts-card__text_gray">
+                    <div class="hw-alex-contacts-card__text hw-alex-contacts-card__text_gray">
                             456 New Street 22000, New&nbsp;York City, USA
                     </div>
-                    <div class="contacts-card__title">
+                    <div class="hw-alex-contacts-card__title">
                             Contact.
                     </div>
-                    <div class="contacts-card__text contacts-card__text_gray">
-                            <i class="fa fa-phone contacts-card__icon"></i> 01-0110-0220
+                    <div class="hw-alex-contacts-card__text hw-alex-contacts-card__text_gray">
+                            <i class="fa fa-phone hw-alex-contacts-card__icon"></i> 01-0110-0220
                     </div>
-                    <div class="contacts-card__text contacts-card__text_dark-yellow">
-                        <i class="fa fa-envelope-o contacts-card__icon"></i> hello@company.co
+                    <div class="hw-alex-contacts-card__text hw-alex-contacts-card__text_dark-yellow">
+                        <i class="fa fa-envelope-o hw-alex-contacts-card__icon"></i> hello@company.co
                     </div>
-                    <div class="contacts-card__text contacts-card__text_dark-yellow">
-                        <i class="fa fa-globe contacts-card__icon"></i> company.co
+                    <div class="hw-alex-contacts-card__text hw-alex-contacts-card__text_dark-yellow">
+                        <i class="fa fa-globe hw-alex-contacts-card__icon"></i> company.co
                     </div>
                 </div>
             </div>
          </div>
     </div>
-    <div class="footer">
-        <div class="footer__title">
+    <div class="hw-alex-footer">
+        <div class="hw-alex-footer__title">
             Copyright &copy; 2016 Your Company | Design:
-            <a class="footer__author-link">tempalemo</a>
+            <a class="hw-alex-footer__author-link">tempalemo</a>
         </div>
-        <div class="footer__icons">
+        <div class="hw-alex-footer__icons">
             <i class="fa fa-facebook"></i>
             <i class="fa fa-twitter"></i>
             <i class="fa fa-google-plus"></i>
