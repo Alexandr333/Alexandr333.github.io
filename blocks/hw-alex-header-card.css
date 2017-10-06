@@ -73,5 +73,7 @@
     border:3px solid #212121;
     outline:none;
     
+    cursor: pointer;
+
     font-size:12px;
 }
