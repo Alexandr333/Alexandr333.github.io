@@ -67,3 +67,7 @@
     text-align:  center;
     line-height:30px;
 }
+.calendar__day_today{
+background-color:yellow;
+}
+
